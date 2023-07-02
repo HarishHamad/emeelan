@@ -9,10 +9,30 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+span {
+  color:white;
+  text-decoration: none;
+}
+span:hover {
+  color: #47b2e4;
+  text-decoration: none;
+}
+
 
 a {
   color: #47b2e4;
@@ -111,7 +131,8 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  
+  background: rgba(40, 58, 90, 0.9);
+  height: 60px;
 
  
 }

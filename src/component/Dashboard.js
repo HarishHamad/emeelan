@@ -103,51 +103,29 @@ export default function Dashboard() {
     <div class="container d-flex align-items-center">
 
 
-      <h1 class="logo me-auto"><a href="index.html">Emeelan</a></h1>
+      <h1 class="logo me-auto"><a href="index.html">Sirvi Samaj Chart</a></h1>
       <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"/></a>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#why-us">WhyUS</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-       
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="/"><span>Services</span><i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto " href="/">Home</a></li>
+          &nbsp;   &nbsp;   &nbsp;   &nbsp;
+          <li class="dropdown"><span>Member</span><i class="bi bi-chevron-down"></i>
             <ul>
+           
+                  <li><a href="/add">Add Member</a></li>
+                  <li><a href="/view">View Member</a></li>
              
-              <li class="dropdown"><a href="/"><span>Consultancy</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="/">UIUX</a></li>
-                  <li><a href="/">Education</a></li>
-                  <li><a href="/">Counselling</a></li>
-                  <li><a href="/">Corporate Training</a></li>
-                  
-                </ul>
-              </li>
-              <li class="dropdown"><a href="/"><span>Software</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="/">Development</a></li>
-                  <li><a href="/">Testing</a></li>
-                  <li><a href="/">DevOps</a></li>
-                
-                  
-                </ul>
-              </li>
-              <li class="dropdown"><a href="/"><span>Social</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="/">Temple Service</a></li>
-                  <li><a href="/">Helping for Job</a></li>
-                  <li><a href="/">Training and Guidance</a></li>
-                  <li><a href="/">Helping in Carrier enhancement</a></li>
-                  
-                </ul>
-              </li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="nav-link scrollto" href="/about">About</a></li>
+          {/* <li><a class="nav-link scrollto" href="#why-us">WhyUS</a></li> */}
+          <li><a class="nav-link scrollto" href="/services">Services</a></li>
+       
+          <li><a class="nav-link scrollto" href="/team">Team</a></li>
+         
+          <li><a class="nav-link scrollto" href="/contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="/about">Get Started</a></li>
         </ul>
        
        
